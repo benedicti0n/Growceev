@@ -1,3 +1,4 @@
+import Button from '@/common/Button';
 import React from 'react'
 import { HiArrowLongRight } from "react-icons/hi2";
 
@@ -21,9 +22,13 @@ function Navbarr() {
             <li className='text-[16px] text-justify cursor-pointer text-black'>Testimonials</li>
             <li className='text-[16px] text-justify cursor-pointer text-black'>Services</li>
             <li className='text-[16px] text-justify cursor-pointer text-black'>Blog</li>
-            <div className="cursor-pointer hover:bg-gray-300 duration-500 border border-black rounded-[24px] flex justify-center items-center px-5">
+            {/* <div className="cursor-pointer hover:bg-gray-300 duration-500 border border-black rounded-[24px] flex justify-center items-center px-5">
             <p className='text-[16px] text-justify text-black'>Lets Talk</p>
             <HiArrowLongRight size={25}/>
+            </div> */}
+
+            <div className='cursor-pointer'>
+              <Button name={"Lets Talk"} color={"black"}/>
             </div>
         </ul>
 
