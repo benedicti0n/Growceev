@@ -1,5 +1,6 @@
 import Navbarr from "@/components/Navbarr";
 import PageOne from "@/components/PageOne";
+import PageThree from "@/components/PageThree";
 import PageTwo from "@/components/PageTwo";
 
 
@@ -9,6 +10,7 @@ export default function Home() {
     <Navbarr/>
     <PageOne/>
     <PageTwo/>
+    <PageThree/>
    </div>
   );
 }
