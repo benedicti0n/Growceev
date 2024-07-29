@@ -19,7 +19,7 @@ function PageOne() {
             <img src="/sideImg.jpeg" alt="sideImg" className="w-[457px] h-[457px] hidden md:flex" />
         </div>
 
-        <div className='mt-32 cursor-pointer border border-black rounded-full w-[70px] h-[70px] flex justify-center items-center'>
+        <div className='mt-16 cursor-pointer border border-black rounded-full w-[100px] h-[100px] flex justify-center items-center'>
             <HiArrowLongDown size={30}/>
         </div>
     </div>
