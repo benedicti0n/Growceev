@@ -24,7 +24,7 @@ function PageTwo() {
   }
 
   return (
-    <div className="min-h-screen w-full flex justify-center py-6 mt-10 items-center md:px-12 px-5">
+    <div id='testimonials' className="min-h-screen w-full flex justify-center py-6 mt-10 items-center md:px-12 px-5">
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
             {items}
         </div>
