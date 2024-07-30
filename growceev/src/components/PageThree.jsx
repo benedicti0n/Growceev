@@ -44,7 +44,7 @@ function PageThree() {
     <div id="services" className="min-h-screen w-full flex justify-center py-6 mt-10 items-center md:px-12 px-5">
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
             {cards.map((card) => (
-                <div key={card.id} className='p-6 border border-gray-300 rounded-[20px] flex flex-col justify-center items-center text-center space-y-3'>
+                <div key={card.id} className='p-6 border border-gray-300 rounded-[20px] flex flex-col justify-center items-center text-center space-y-3 hover:shadow-2xl cursor-pointer'>
                     <img src={card.imgUrl} alt={card.title} className='w-[90px] h-[90px]'/>
                     <div className='py-7'>
                     <h2 className='font-semibold text-[20px]'>{card.title}</h2>

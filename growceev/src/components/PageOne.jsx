@@ -1,9 +1,10 @@
 'use client'
 
 import Button from '@/common/Button';
+import ScrollBtn from '@/common/ScrollBtn';
+import Link from 'next/link';
 import React from 'react'
 import { HiArrowLongRight } from "react-icons/hi2";
-import { HiArrowLongDown } from "react-icons/hi2";
 
 
 function PageOne() {
@@ -24,10 +25,12 @@ function PageOne() {
             </div>
             <img src="/sideImg.jpeg" alt="sideImg" className="w-[457px] h-[457px] hidden md:flex" />
         </div>
-
-        <div className='mt-12 cursor-pointer border border-black rounded-full w-[100px] h-[100px] flex justify-center items-center'>
+      <Link href="#testimonials">
+        {/* <div className='mt-12 cursor-pointer border border-black rounded-full w-[100px] h-[100px] flex justify-center items-center'>
             <HiArrowLongDown size={30}/>
-        </div>
+        </div> */}
+        <ScrollBtn />
+      </Link>
     </div>
   )
 }
