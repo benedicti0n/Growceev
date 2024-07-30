@@ -18,6 +18,8 @@ function Navbarr() {
         </defs>
         </svg>
 
+      <div className='md:flex gap-10 flex items-center justify-center'>
+
         <ul className='md:flex gap-10 hidden'>
 
             <li className='text-[16px] text-justify cursor-pointer text-black'>
@@ -49,10 +51,12 @@ function Navbarr() {
             <HiArrowLongRight size={25}/>
             </div> */}
 
-            <div className='cursor-pointer'>
-              <Button name={"Lets Talk"} color={"black"}/>
-            </div>
+            
         </ul>
+        <div className='cursor-pointer mr-2'>
+          <Button name={"Let's Talk"} color={"black"}/>
+        </div>
+      </div>
 
     </div>
   )
