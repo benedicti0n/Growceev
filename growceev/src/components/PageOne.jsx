@@ -1,6 +1,7 @@
 'use client'
 
 import Button from '@/common/Button';
+import Link from 'next/link';
 import React from 'react'
 import { HiArrowLongRight } from "react-icons/hi2";
 import { HiArrowLongDown } from "react-icons/hi2";
@@ -26,7 +27,10 @@ function PageOne() {
         </div>
 
         <div className='mt-12 cursor-pointer border border-black rounded-full w-[100px] h-[100px] flex justify-center items-center'>
+          <Link href="#testimonials">
             <HiArrowLongDown size={30}/>
+          </Link>
+            
         </div>
     </div>
   )
