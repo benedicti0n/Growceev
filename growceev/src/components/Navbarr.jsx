@@ -1,4 +1,5 @@
 import Button from '@/common/Button';
+import Link from 'next/link';
 import React from 'react'
 import { HiArrowLongRight } from "react-icons/hi2";
 
@@ -18,10 +19,31 @@ function Navbarr() {
         </svg>
 
         <ul className='md:flex gap-10 hidden'>
-            <li className='text-[16px] text-justify cursor-pointer text-black'>Home</li>
-            <li className='text-[16px] text-justify cursor-pointer text-black'>Testimonials</li>
-            <li className='text-[16px] text-justify cursor-pointer text-black'>Services</li>
-            <li className='text-[16px] text-justify cursor-pointer text-black'>Blog</li>
+
+            <li className='text-[16px] text-justify cursor-pointer text-black'>
+              <Link href="#home">
+                Home
+              </Link>
+            </li>
+
+            <li className='text-[16px] text-justify cursor-pointer text-black'>
+              <Link href="#testimonials">
+                Testimonials
+              </Link>
+            </li>
+
+            <li className='text-[16px] text-justify cursor-pointer text-black'>
+              <Link href="#services">
+                Services
+              </Link>
+              </li>
+              
+            <li className='text-[16px] text-justify cursor-pointer text-black'>
+              <Link href="#blog">
+                Blog
+              </Link>
+            </li>
+            
             {/* <div className="cursor-pointer hover:bg-gray-300 duration-500 border border-black rounded-[24px] flex justify-center items-center px-5">
             <p className='text-[16px] text-justify text-black'>Lets Talk</p>
             <HiArrowLongRight size={25}/>
