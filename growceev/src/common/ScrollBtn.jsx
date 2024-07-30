@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { HiArrowLongDown } from "react-icons/hi2";
 import styles from "./ScrollBtn.module.scss";
-import Script from 'next/script';
 
 function ScrollBtn() {
 
@@ -19,8 +18,8 @@ function ScrollBtn() {
         <div className={styles.text}>
             <p>SCROLL DOWN - SCROLL DOWN - </p>
         </div>
-        <div className='cursor-pointer border border-black rounded-full w-[100px] h-[100px] flex justify-center items-center'>
-            <HiArrowLongDown size={30}/>
+        <div className={styles.innercircle}>
+            <HiArrowLongDown className={styles.arrow} size={30}/>
         </div>
     </div>
 
