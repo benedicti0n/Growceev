@@ -18,8 +18,8 @@ function ScrollBtn() {
         <div className={styles.text}>
             <p>SCROLL DOWN - SCROLL DOWN - </p>
         </div>
-        <div className='cursor-pointer border border-black w-[100px] h-[100px] flex justify-center items-center'>
-            <HiArrowLongDown size={30}/>
+        <div className={styles.innercircle}>
+            <HiArrowLongDown className={styles.arrow} size={30}/>
         </div>
     </div>
 
