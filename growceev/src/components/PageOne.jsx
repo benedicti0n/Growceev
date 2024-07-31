@@ -29,7 +29,7 @@ function PageOne() {
   }, []);
 
   return (
-    <div id='home' className="min-h-screen w-full flex flex-col justify-center py-10 items-center md:px-12 px-5">
+    <div id='home' className="min-h-screen w-full flex flex-col justify-center py-10 items-center md:px-48 px-5">
         <div className="w-full flex justify-between items-center">
         <div className='flex flex-col mt-[-20px]'>
           <h1 ref={(el) => (textRefs.current[0] = el)} className='text-4xl md:text-[64px] md:leading-[80.64px] font-[500] text-left'>
@@ -45,7 +45,7 @@ function PageOne() {
             <Button name="Book Now" color="#0a00c1" />
           </div>
         </div>
-            <img src="/sideImg.jpeg" alt="sideImg" className="w-[457px] h-[457px] hidden md:flex" />
+            <img  ref={(el) => (textRefs.current[4] = el)} src="/sideImg.jpeg" alt="sideImg" className="w-[457px] h-[457px] hidden md:flex" />
         </div>
       <Link href="#testimonials">
         <ScrollBtn />
