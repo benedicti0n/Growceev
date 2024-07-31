@@ -2,7 +2,7 @@ import React from 'react'
 
 function PageTwo() {
 
-    const itemCount = 6;
+    const itemCount = 4;
 
   const items = [];
 
@@ -25,7 +25,7 @@ function PageTwo() {
 
   return (
     <div id='testimonials' className="min-h-screen w-full flex justify-center py-6 mt-10 items-center md:px-12 px-5">
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-16'>
             {items}
         </div>
     </div>
