@@ -4,6 +4,13 @@ import styles from "./ScrollBtn.module.scss";
 
 function ScrollBtn() {
 
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
     useEffect(() => {
         const text = document.querySelector(`.${styles.text} p`);
         text.innerHTML = text.innerText.split("").map(
@@ -14,7 +21,7 @@ function ScrollBtn() {
 
   return (
     <>
-    <div className={styles.circle}>
+    <div className={styles.circle} onClick={() => handleScroll('testimonials')}>
         <div className={styles.text}>
             <p>SCROLL DOWN - SCROLL DOWN - </p>
         </div>

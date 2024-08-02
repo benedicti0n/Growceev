@@ -47,9 +47,7 @@ function PageOne() {
         </div>
             <img  ref={(el) => (textRefs.current[4] = el)} src="/sideImg.jpeg" alt="sideImg" className="w-[457px] h-[457px] hidden md:flex" />
         </div>
-      <Link href="#testimonials">
         <ScrollBtn />
-      </Link>
     </div>
   )
 }
