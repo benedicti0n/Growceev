@@ -42,7 +42,7 @@ function Navbarr() {
   
 
   return (
-    <div className='w-full top-0 flex justify-between md:px-32 px-5 py-4  bg-white fixed z-10'>
+    <div className='w-full top-0 flex justify-between md:px-48 px-5 py-4 bg-white fixed z-10'>
       
       <Image src={"/growceevLogo.png"} alt='growceevlogo' width={40} height={40}/>
 
