@@ -113,7 +113,7 @@ function WhyUs() {
         </div>
 
         {/* Table 2 */}
-        <div className="w-[45%] h-full flex flex-col space-y-8 items-start">
+        <div className="w-[45%] h-full flex flex-col space-y-[59px] items-start">
         <h2 className='font-bold text-lg flex justify-center items-center ml-10'>Other Agencies</h2>
           {table2.map((t2) => (
             <div key={t2.id}>
