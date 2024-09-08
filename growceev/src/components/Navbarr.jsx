@@ -4,6 +4,7 @@ import Button from '@/common/Button';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
+import ServiceNav from './ServiceNav';
 
 function Navbarr() {
 
@@ -66,7 +67,7 @@ function Navbarr() {
             className={`text-[16px] text-justify cursor-pointer text-black relative ${activeSection === 'services' ? 'active' : ''}`} 
             onClick={() => handleScroll('services')}
           >
-            Services
+            <ServiceNav/>
           </li>
           <li 
             className={`text-[16px] text-justify cursor-pointer text-black relative ${activeSection === 'blog' ? 'active' : ''}`} 
