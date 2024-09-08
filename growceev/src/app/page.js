@@ -3,6 +3,7 @@ import Navbarr from "@/components/Navbarr";
 import PageOne from "@/components/PageOne";
 import PageThree from "@/components/PageThree";
 import PageTwo from "@/components/PageTwo";
+import WhyUs from "@/components/WhyUs";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
     <PageTwo/>
     <PageThree/>
     <Blog/>
+    <WhyUs/>
    </div>
   );
 }
