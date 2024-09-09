@@ -50,18 +50,6 @@ export default function Services() {
     },
     {
         title: "Lead Generation B2B",
-        description: "Let our experts take charge of your PPC campaign. Don't Settle For LESS, Achieve BIG With Our Performance Marketing Strategies",
-    },
-    {
-        title: "Ecommerce Ads Management",
-        description: "We know how to scale a D2C brand. We are focused on getting Best ROAS. Hardcore Strategies to grow D2C businesses and Ecommerce Websites",
-    },
-    {
-        title: "Lead Generation Services B2C",
-        description: "Get in touch with our Lead Generation services. Our main priority is to get maximum quality leads at less cost.",
-    },
-    {
-        title: "Lead Generation B2B",
         description: "Let our experts take charge of your PPC campaign.Don't Settle For LESS, Achieve BIG With Our Performance Marketing Strategies",
     },
     {

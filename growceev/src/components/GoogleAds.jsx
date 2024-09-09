@@ -4,8 +4,8 @@ import { ResponsiveLine } from "@nivo/line"
 
 export default function GoogleAds() {
   return (
-    <div className="h-screen bg-gradient-to-b from-white to-white py-10">
-      <main className="flex flex-col items-center text-center pt-20 px-4">
+    <div className="h-screen bg-gradient-to-b from-white to-white">
+      <main className="flex flex-col items-center text-center px-4">
         <h1 className="text-5xl font-bold mb-4">Google Ads</h1>
         <h2 className="text-3xl font-semibold mb-6">Your Success, Our Ads</h2>
         <p className="text-lg mb-8 mx-96">
