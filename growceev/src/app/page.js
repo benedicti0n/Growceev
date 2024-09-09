@@ -1,4 +1,5 @@
 import Blog from "@/components/Blog";
+import GoogleAds from "@/components/GoogleAds";
 import Navbarr from "@/components/Navbarr";
 import PageOne from "@/components/PageOne";
 import PageThree from "@/components/PageThree";
@@ -17,6 +18,7 @@ export default function Home() {
     {/* <Blog/> */}
     <SEO/>
     <WhyUs/>
+    <GoogleAds/>
    </div>
   );
 }
