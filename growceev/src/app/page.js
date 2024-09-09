@@ -6,6 +6,7 @@ import PageOne from "@/components/PageOne";
 import PageThree from "@/components/PageThree";
 import PageTwo from "@/components/PageTwo";
 import SEO from "@/components/SEO";
+import Services from "@/components/Services";
 import WhyUs from "@/components/WhyUs";
 
 
@@ -21,6 +22,7 @@ export default function Home() {
     <WhyUs/>
     <GoogleAds/>
     <MetaAds/>
+    <Services/>
    </div>
   );
 }
