@@ -1,4 +1,5 @@
 import Blog from "@/components/Blog";
+import Footer from "@/components/Footer";
 import GoogleAds from "@/components/GoogleAds";
 import MetaAds from "@/components/MetaAds";
 import Navbarr from "@/components/Navbarr";
@@ -23,6 +24,7 @@ export default function Home() {
     <GoogleAds/>
     <MetaAds/>
     <Services/>
+    <Footer/>
    </div>
   );
 }
