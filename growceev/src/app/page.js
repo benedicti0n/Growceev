@@ -3,6 +3,7 @@ import Navbarr from "@/components/Navbarr";
 import PageOne from "@/components/PageOne";
 import PageThree from "@/components/PageThree";
 import PageTwo from "@/components/PageTwo";
+import SEO from "@/components/SEO";
 import WhyUs from "@/components/WhyUs";
 
 
@@ -13,7 +14,8 @@ export default function Home() {
     <PageOne/>
     <PageTwo/>
     <PageThree/>
-    <Blog/>
+    {/* <Blog/> */}
+    <SEO/>
     <WhyUs/>
    </div>
   );

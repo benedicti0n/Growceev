@@ -67,7 +67,7 @@ function Navbarr() {
             className={`text-[16px] text-justify cursor-pointer text-black relative ${activeSection === 'services' ? 'active' : ''}`} 
             onClick={() => handleScroll('services')}
           >
-            <ServiceNav/>
+            Services
           </li>
           <li 
             className={`text-[16px] text-justify cursor-pointer text-black relative ${activeSection === 'blog' ? 'active' : ''}`} 

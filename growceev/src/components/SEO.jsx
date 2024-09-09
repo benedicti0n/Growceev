@@ -1,46 +1,14 @@
-
+"use client"
 import { Button } from "@/components/ui/button"
 import { ResponsiveLine } from "@nivo/line"
 
-export default function Component() {
+export default function SEO() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-[#e0e7ff]">
-      <header className="flex items-center justify-between p-6">
-        <div className="text-4xl font-bold text-blue-600">Q</div>
-        <nav className="flex items-center space-x-8 text-lg">
-          <a href="#" className="hover:text-gray-700">
-            Home
-          </a>
-          <a href="#" className="hover:text-gray-700">
-            Testimonials
-          </a>
-          <div className="relative group">
-            <a href="#" className="hover:text-gray-700 flex items-center">
-              Services
-              <ChevronDownIcon className="ml-1 w-4 h-4" />
-            </a>
-            <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-md mt-2">
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">
-                Service 1
-              </a>
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">
-                Service 2
-              </a>
-            </div>
-          </div>
-          <a href="#" className="hover:text-gray-700">
-            Blogs
-          </a>
-          <Button variant="outline" className="border-2 border-gray-700 px-4 py-2 rounded-full">
-            Let's Talk
-            <ArrowRightIcon className="ml-2 w-4 h-4" />
-          </Button>
-        </nav>
-      </header>
-      <main className="flex flex-col items-center text-center py-20 px-4">
+    <div className="h-screen bg-gradient-to-b from-white to-white py-10">
+      <main className="flex flex-col items-center text-center pt-20  px-4">
         <h1 className="text-5xl font-bold mb-4">SEO</h1>
         <h2 className="text-3xl font-semibold mb-6">Partner with us for long term SEO success</h2>
-        <p className="text-lg mb-8">
+        <p className="text-lg mb-8 mx-96">
           Your Partner in SEO Success. We offer end-to-end SEO services, from content creation to link building, with a
           relentless focus on results. Our open, collaborative process keeps you informed every step of the way.
           Leveraging our team's deep expertise and a proven methodology, we deliver exceptional outcomes through
@@ -51,30 +19,30 @@ export default function Component() {
           <ArrowRightIcon className="ml-2 w-4 h-4"/>
         </Button>
       </main>
-      <section className="grid grid-cols-2 gap-8 px-4 py-20 text-lg">
-        <div className="space-y-8">
-          <div className="flex items-center">
-            <span className="font-semibold">Keyword Research</span>
+      <section className="grid grid-cols-3 gap-8 px-4 lg:px-40 lg:py-10 text-lg">
+        <div className="flex flex-col justify-evenly items-center">
+          <div className="">
+            <span className="font-semibold absolute left-96">Keyword Research</span>
           </div>
-          <div className="flex items-center">
-            <span className="font-semibold">Content Creation</span>
+          <div className="">
+            <span className="font-semibold absolute left-[300px]">Content Creation</span>
           </div>
-          <div className="flex items-center">
-            <span className="font-semibold">Competitor Analysis</span>
+          <div className="">
+            <span className="font-semibold absolute left-96">Competitor Analysis</span>
           </div>
         </div>
         <div className="flex justify-center">
-          <LineChart className="w-full max-w-lg aspect-[4/3]" />
+          <LineChart className="w-full max-w-lg aspect-[4/3]"/>
         </div>
-        <div className="space-y-8">
-          <div className="flex items-center justify-end">
-            <span className="font-semibold">Link Building</span>
+        <div className="flex flex-col justify-evenly items-center">
+          <div className="">
+            <span className="font-semibold absolute right-[400px]">Link Building</span>
           </div>
-          <div className="flex items-center justify-end">
-            <span className="font-semibold">Bespoke Campaigns</span>
+          <div className="">
+            <span className="font-semibold absolute right-[280px]">Bespoke Campaigns</span>
           </div>
-          <div className="flex items-center justify-end">
-            <span className="font-semibold">Regular Updates</span>
+          <div className="">
+            <span className="font-semibold absolute right-[370px]">Regular Updates</span>
           </div>
         </div>
       </section>
