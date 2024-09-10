@@ -99,9 +99,9 @@ function WhyUs() {
   ];
 
   return (
-    <div className="min-h-screen w-full flex flex-col justify-center items-center py-10">
-      <h1 className="text-center text-7xl tracking-wide font-semibold mt-20 pt-10">Why Us?</h1>
-      <div className="w-[800px] h-[600px] flex justify-between items-center mt-20">
+    <div className="min-h-screen w-full flex flex-col justify-center items-center">
+    <h1 className="text-center text-7xl tracking-wide font-semibold">Why Us?</h1>
+    <div className="w-[800px] h-[600px] flex justify-between items-center mt-10">
         {/* Table 1 */}
         <div className="w-[45%] h-full flex flex-col space-y-8 items-start">
         <h2 className='font-bold flex justify-center items-center text-lg ml-10'>Growceev</h2>
@@ -113,7 +113,7 @@ function WhyUs() {
         </div>
 
         {/* Table 2 */}
-        <div className="w-[45%] h-full flex flex-col space-y-8 items-start">
+        <div className="w-[45%] h-full flex flex-col space-y-[59px] items-start">
         <h2 className='font-bold text-lg flex justify-center items-center ml-10'>Other Agencies</h2>
           {table2.map((t2) => (
             <div key={t2.id}>

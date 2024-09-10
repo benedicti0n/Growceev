@@ -2,17 +2,14 @@
 import { Button } from "@/components/ui/button"
 import { ResponsiveLine } from "@nivo/line"
 
-export default function SEO() {
+export default function GoogleAds() {
   return (
-    <div className="h-screen bg-gradient-to-b from-white to-white py-10">
-      <main className="flex flex-col items-center text-center pt-20  px-4">
-        <h1 className="text-5xl font-bold mb-4">SEO</h1>
-        <h2 className="text-3xl font-semibold mb-6">Partner with us for long term SEO success</h2>
+    <div className="h-screen bg-gradient-to-b from-white to-white">
+      <main className="flex flex-col items-center text-center px-4">
+        <h1 className="text-5xl font-bold mb-4">Google Ads</h1>
+        <h2 className="text-3xl font-semibold mb-6">Your Success, Our Ads</h2>
         <p className="text-lg mb-8 mx-96">
-          Your Partner in SEO Success. We offer end-to-end SEO services, from content creation to link building, with a
-          relentless focus on results. Our open, collaborative process keeps you informed every step of the way.
-          Leveraging our team's deep expertise and a proven methodology, we deliver exceptional outcomes through
-          meticulous attention to detail.
+        The digital landscape is competitive. To stand out, you need a strategic approach to Google Ads. Our team has a proven track record of delivering exceptional results for our clients. Here's why you should partner with us
         </p>
         <Button className="bg-blue-600 text-white px-6 py-3 rounded-full">
           Let's Talk

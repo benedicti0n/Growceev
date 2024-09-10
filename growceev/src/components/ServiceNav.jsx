@@ -16,9 +16,10 @@ function ServiceNav() {
     <NavigationMenu>
   <NavigationMenuList>
     <NavigationMenuItem>
-      <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
+      <NavigationMenuTrigger>Services</NavigationMenuTrigger>
       <NavigationMenuContent>
-        <NavigationMenuLink>Link</NavigationMenuLink>
+        <NavigationMenuLink>SEO</NavigationMenuLink>
+        <NavigationMenuLink>Google Ads</NavigationMenuLink>
       </NavigationMenuContent>
     </NavigationMenuItem>
   </NavigationMenuList>
